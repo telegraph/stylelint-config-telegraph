@@ -1,0 +1,20 @@
+{
+  "name": "stylelint-config-telegraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-order": "^0.5.0",
+    "stylelint-scss": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "*"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.7.1"
+  }
+}
