@@ -16,5 +16,8 @@
   },
   "peerDependencies": {
     "stylelint": "^7.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
