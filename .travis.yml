@@ -10,5 +10,5 @@ jobs:
       api_key:
 	secure: olJm2KSo4bGe2VQp1ZvmiSKFzAIGmjZzDGbLPBi44x+EmHlEGThS4aMGCZM1i/mIJChesRqWp5qiVmRIp+C/NxHYaTgX/7MM+p5fLvv5G9r8baI2vyG70rTuT5rb63JnecNTCLVkS0Oy2l9Qirt7LnttrMoAkiTXiJb1l1vH+EfeNODFPeeuaCdkzYrE28bnyfzbzNx2s4ZH30plyH/+Vs5ZMbfcaMyGRHb6A6ONop9FLrf5rStyGDMqa9A1u93Zwe/Bu/Y+9oDpmwjc5AFDunXnnfNNnJ/UIKW13gbrjnFtUfcPqDb78RO5eZEkeaNRyhLwnFE6JeWVixlDFD6Mb8zG87vvnuFsFzUb8HqpHqnDAKDrUdw+qd7h+8hUH8ZgKcHSB/lR+D/4uL+vT9vm8VIEd1GCyFtkVXMpOmXXUx/d/AGrtQbixd3xrT3d78yzur8RgWmuvxbnqDNm5xa+oTQdMgH0zHD4ex7VGb65SfBE8iPNceTm5js64wetemiGqAy8ATNco5GInyMF7UaB7D9xZRM93TJFHCxGegNfmUjVGoR3aaD3z02c3VGQjbRpIIeWPDLDt7GRqg36tnDeAJ0uEqWqyIS/2n4a4lWmChYXgUtVd46FT3tVDTjT2uDknx3ETUIE5eCgvhMOxRnw6YnWuDQxUn8c+19fKtc48+c=
       on:
-        tags: true
+        tags: false
         repo: telegraph/stylelint-config-telegraph
