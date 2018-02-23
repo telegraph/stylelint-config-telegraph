@@ -5,7 +5,7 @@ This package provides TMG's base CSS .stylelintrc as an extensible shared config
 ## Install
 
 ```
-$ npm install --save stylelint-config-telegraph
+$ npm install --save-dev stylelint-config-telegraph
 ```
 
 ## Usage
