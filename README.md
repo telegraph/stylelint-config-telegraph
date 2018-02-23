@@ -18,6 +18,19 @@ Within your [stylelint config object](http://stylelint.io/user-guide/configurati
 }
 ```
 
+## Styleguide
+
+### Selectors
+
+#### ID
+
+Never use ID selectors. The high specificty can cause unexpected interactions between styles.
+
+#### Class
+
+Class names should be in the Block Element Modifier (BEM) style. BEM allows for clean, reusable code, that makes a clear connection between the HTML markup and the styles.
+
+
 ## Documentation
 
 ### Plugins
