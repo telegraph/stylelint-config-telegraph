@@ -120,8 +120,8 @@ module.exports = {
     'selector-max-specificity': '0,4,0',
     
     // Disallow id selectors.
-    // https://stylelint.io/user-guide/rules/selector-no-attribute/
-    'selector-no-id': true,
+    // https://stylelint.io/user-guide/rules/selector-max-id/
+    'selector-max-id': 0,
     
     // Disallow qualifying a selector by type.
     // https://stylelint.io/user-guide/rules/selector-no-qualifying-type/
