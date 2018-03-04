@@ -14,7 +14,7 @@ Within your [stylelint config object](http://stylelint.io/user-guide/configurati
 
 ```json
 {
-  "extends": "stylelint-config-telegraph"
+  "extends": "@telegraph-engineering/stylelint-config-telegraph"
 }
 ```
 
