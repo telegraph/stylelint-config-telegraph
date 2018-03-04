@@ -5,7 +5,7 @@ This package provides TMG's base CSS .stylelintrc as an extensible shared config
 ## Install
 
 ```
-$ npm install --save-dev stylelint-config-telegraph
+$ npm install --save-dev @telegraph-engineering/stylelint-config-telegraph
 ```
 
 ## Usage
@@ -18,17 +18,21 @@ Within your [stylelint config object](http://stylelint.io/user-guide/configurati
 }
 ```
 
+## Rules
+
+The different options for rules can be found in the original [styleline repo](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/rules.md)
+
 ## Styleguide
 
 ### Selectors
 
 #### ID
 
-Never use ID selectors. The high specificty can cause unexpected interactions between styles.
+Never use ID selectors. The high specificty can cause unexpected issues between styles.
 
 #### Class
 
-Class names should be in the Block Element Modifier (BEM) style. BEM allows for clean, reusable code, that makes a clear connection between the HTML markup and the styles.
+Class names should be in the Block Element Modifier (BEM) style. BEM allows for clean, reusable code, that makes a clear connection between the HTML component and its styles.
 
 
 ## License
