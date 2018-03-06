@@ -1,6 +1,8 @@
 # stylelint-config-telegraph
 
-This package provides TMG's base CSS .stylelintrc as an extensible shared config.
+The Telegraph Engineering stylelint config.
+
+We have based our config on [`stylelint-config-recommended`](https://github.com/stylelint/stylelint-config-recommended) and made various custom changes to adhere to our internal standards.
 
 ## Install
 
@@ -24,11 +26,27 @@ The different options for rules can be found in the original [stylelint repo](ht
 
 ## Styleguide
 
+### Indentation 
+
+Indent your CSS properties with tabs. The default tab size should be set as 4.
+
+### Nesting
+
+Heavy nesting should be avoided at all times, particularly with Sass. Every element should have its own class and be written on a new line.
+
+Nesting is only permitted for pseudo selectors and must have a new, empty, line above them.
+
+### Readability vs Compression
+
+CSS should be written in a readable manor and compression left for the build process and tooling.
+
 ### Prefixes
 
 Do not prefix any of your CSS as we let [autoprefixer](https://github.com/postcss/autoprefixer) do all of the hard work for us.
 
 ### Selectors
+
+Multiple shared selectors should go on seperate lines and you should not have more than 3 levels deep for selectors.
 
 #### Universal
 
@@ -52,7 +70,15 @@ Never go more than two levels deep with compound selectors. If the BEM syntax is
 
 #### Important
 
-The use of `!important` should never be used unless it is a requirement to override third party, inline, styles.
+The use of `!important` should only be considered for helper classes or if it is a requirement to override third party, inline, styles.
+
+### Comments
+
+Comment as much as you can to be as clear as you can. Where applicable, for a component, comment out a piece of markup to help define the context of the CSS. Comments should have a new, empty, line above them and be above the CSS selector.
+
+### @extend
+
+We don't promote the use of the `@extend` operator. It can generate unexpected results in compiled CSS.
 
 ## License
 
