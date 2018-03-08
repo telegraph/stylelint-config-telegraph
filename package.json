@@ -1,22 +1,33 @@
 {
   "name": "@telegraph-engineering/stylelint-config-telegraph",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Telegraph Engineering config for stylelint",
   "main": "index.js",
+  "keywords": [
+    "stylelint",
+    "scss",
+    "javascript",
+    "telegraph"
+  ],
+  "author": "Telegraph Engineering",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
-  "dependencies": {
-    "stylelint-config-recommended": "^2.1.0"
-  },
   "devDependencies": {
     "stylelint": "^9.1.1"
   },
   "peerDependencies": {
     "stylelint": "^9.1.1"
   },
-  "publishConfig": {
-    "access": "public"
+  "dependencies": {
+    "stylelint-config-standard": "18.1.0",
+    "stylelint-declaration-strict-value": "1.0.4",
+    "stylelint-order": "^0.8.1",
+    "stylelint-scss": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telegraph/stylelint-config-telegraph"
   }
 }

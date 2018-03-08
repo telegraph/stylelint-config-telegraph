@@ -2,7 +2,7 @@
 
 The Telegraph Engineering stylelint config.
 
-We have based our config on [`stylelint-config-recommended`](https://github.com/stylelint/stylelint-config-recommended) and made various custom changes to adhere to our internal standards.
+We have based our config on [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard) and made various custom changes to adhere to our internal standards.
 
 ## Install
 
