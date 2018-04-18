@@ -142,6 +142,10 @@ module.exports = {
             },
             'declarations',
             {
+                type: 'rule',
+                selector: /^&:[\w-]+$/
+            },
+            {
                 type: 'at-rule',
                 name: 'include',
                 parameter: 'break-by-width',
