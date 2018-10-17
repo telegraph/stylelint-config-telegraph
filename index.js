@@ -141,6 +141,7 @@ module.exports = {
                 hasBlock: true
             },
             'declarations',
+	        'rules',
             {
                 type: 'rule',
                 selector: /^&:[\w-]+$/
@@ -150,8 +151,7 @@ module.exports = {
                 name: 'include',
                 parameter: 'break-by-width',
                 hasBlock: true
-            },
-            'rules'
+            }
         ],
         'order/properties-alphabetical-order': true,
 
