@@ -1,6 +1,6 @@
 {
   "name": "@telegraph-engineering/stylelint-config-telegraph",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Telegraph Engineering config for stylelint",
   "main": "index.js",
   "keywords": [
